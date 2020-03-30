@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      url: mongodb://localhost:27017/test   # 我用的是本地安装的MongoDB,所以没有用户名和密码。
+#      url: mongodb://name:pass@localhost:27017/test   # name: 用户名， pass: 密码
+#      url: mongodb://192:168:1:1:20000,192:168:1:2:20000,192:168:252:12:20000/test   # 配置多个数据库用,则中间用 “,” 分割

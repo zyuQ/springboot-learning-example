@@ -10,7 +10,6 @@ import springboot.pojo.User;
 /**
  * @Description:
  * @Author: zyu
- * @Date: 2020/3/28 15:28
  */
 @RestController
 @RequestMapping("/user")
